@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #c0c0c0;
+  width: 650px;
+  border-radius: 30px;
+}
+
+.content:hover {
+  box-shadow: 0px 0px 5px gray;
+}
+
+.content > img {
+  width: 20px;
+  margin: 15px;
+}
+
+section {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 90%;
+  border: none;
+  outline: none;
+}
+
+.interaction {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.interaction > a:hover {
+  text-decoration: underline;
+}
+
+.googlelogo {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+.interaction > img {
+  width: 40px;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background-color: black;
+  margin-right: 10px;
+}
+
+.interaction > a {
+  display: flex;
+  align-items: center;
+}
+.sentence {
+  display: flex;
+  justify-content: center;
+}
+
+.phrase {
+  display: flex;
+  justify-content: space-between;
+  width: 210px;
+  height: 30px;
+}
+
+.phrase > button {
+  border: none;
+  cursor: pointer;
+}
+
+.phrase > button:hover {
+  border: 1px solid gray;
+}
+
+.nationality {
+  display: flex;
+
+}
